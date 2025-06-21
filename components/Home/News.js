@@ -9,17 +9,17 @@ export default function News() {
       <div className="mx-auto lg:container xl:pl-2">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           <div>
-            <h2 className="ogg-regular pl-4 text-[3rem] text-[#2d2d2d] lg:pl-0 lg:text-[4.1rem] ">
-              What&apos;s new
+            <h2 className="ogg-regular pl-4 text-[3rem] text-brandPurple-900 lg:pl-0 lg:text-[4.1rem] ">
+              Noticias y eventos
             </h2>
             <div className="mt-3 ml-5 hidden lg:mt-5 lg:ml-0 lg:block">
-              <a href="/" className="plain-regular text-md text-[#ec0426]">
-                See all
+              <a href="/" className="plain-regular text-md text-brandPurple-600 hover:text-brandPurple-800 transition-colors">
+                Ver todo
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="45px"
                   height="35px"
-                  fill="#ec0426"
+                  fill="#AC3A89"
                   viewBox="0 0 29 32"
                   version="1.1"
                   className="inline-block"
@@ -31,119 +31,104 @@ export default function News() {
               </a>
             </div>
           </div>
-          <div className="mb-2 border-l-0 border-[#777572] pl-4 pr-4 lg:mb-32 lg:border-l-2 lg:pr-4">
-            <img className="w-full" src="/images/M.png" alt="" />
+          <div className="mb-2 border-l-0 border-brandPurple-300 pl-4 pr-4 lg:mb-32 lg:border-l-2 lg:pr-4">
+            <div className="w-full h-64 border-2 border-brandPurple-200 rounded-lg flex items-center justify-center">
+              <span className="text-brandPurple-900 text-2xl font-bold">NUEVA EXPOSICIÓN</span>
+            </div>
             <div className="mt-8 space-y-6">
-              <h3 className="ogg-medium text-[2.3rem] leading-10 text-[#2d2d2d] lg:text-[2.6rem]">
-                SPINARIO'S THORN
+              <h3 className="ogg-medium text-[2.3rem] leading-10 text-brandPurple-900 lg:text-[2.6rem]">
+                EL CUATRO PUERTORRIQUEÑO
               </h3>
               <div className="pb-4">
-                <p className="plain-regular text-[1.07rem] text-[#2d2d2d]">
-                  Explore Antico's greatest work—online or at the Museum—with
-                  new perspectives on pain, mindfulness, and the creative
-                  process.
+                <p className="plain-regular text-[1.07rem] text-gray-700">
+                  Explora la historia y evolución del cuatro puertorriqueño, 
+                  el instrumento nacional de Puerto Rico, en nuestra nueva exposición especial.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="mb-0 grid grid-cols-2 border-t-0 border-[#777572] sm:grid-cols-2 lg:mb-32 lg:grid-cols-4 lg:border-t-2">
-          <div className="mt-0 border-r-0 border-[#777572] pl-4 pr-1 lg:mt-20 lg:border-r-2 lg:pr-4 lg:pl-0">
+        <div className="mb-0 grid grid-cols-2 border-t-0 border-brandPurple-300 sm:grid-cols-2 lg:mb-32 lg:grid-cols-4 lg:border-t-2">
+          <div className="mt-0 border-r-0 border-brandPurple-300 pl-4 pr-1 lg:mt-20 lg:border-r-2 lg:pr-4 lg:pl-0">
             <div className="hidden md:block lg:block">
-              <Image
-                src="/images/SL.jpeg"
-                alt="Sign Tour"
-                width={362}
-                height={245}
-              />
+              <div className="w-full h-48 border-2 border-brandPurple-200 rounded-lg flex items-center justify-center">
+                <span className="text-brandPurple-900 text-lg font-bold">TALLERES</span>
+              </div>
             </div>
             <div className="block md:hidden lg:hidden">
-              <Image
-                src="/images/SL.jpeg"
-                alt="Sign Tour"
-                width={362}
-                height={259}
-              />
+              <div className="w-full h-48 border-2 border-brandPurple-200 rounded-lg flex items-center justify-center">
+                <span className="text-brandPurple-900 text-lg font-bold">TALLERES</span>
+              </div>
             </div>
             <div className="mt-6 space-y-3 lg:mt-8 lg:space-y-6">
-              <h3 className="plain-regular leading-7 text-[#2d2d2d] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] lg:leading-10">
-                Met Signs Tour
+              <h3 className="plain-regular leading-7 text-brandPurple-900 sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] lg:leading-10">
+                Clases de Güiro
               </h3>
               <div className="pb-4">
-                <p className="plain-regular pb-12 text-[0.8rem] text-[#2d2d2d] md:text-[0.9rem] lg:text-[1.1rem]">
-                  Explore Juan Gris's cubist masterpiece Still Life with Checked
-                  Tablecloth. Presented in American Sign Language.
+                <p className="plain-regular pb-12 text-[0.8rem] text-gray-600 md:text-[0.9rem] lg:text-[1.1rem]">
+                  Aprende a tocar el güiro tradicional puertorriqueño con nuestros 
+                  maestros expertos en música folclórica.
                 </p>
               </div>
             </div>
           </div>
-          <div className="mt-0 border-r-0 border-[#777572] pl-1 pr-4 lg:mt-20 lg:border-r-2 lg:px-5 lg:pl-5">
-            <Image
-              src="/images/SW.jpeg"
-              alt="Snow White"
-              width={342}
-              height={245}
-            />
+          <div className="mt-0 border-r-0 border-brandPurple-300 pl-1 pr-4 lg:mt-20 lg:border-r-2 lg:px-5 lg:pl-5">
+            <div className="w-full h-48 border-2 border-brandPurple-200 rounded-lg flex items-center justify-center">
+              <span className="text-brandPurple-900 text-lg font-bold">CONCIERTOS</span>
+            </div>
             <div className="mt-6 space-y-3 lg:mt-8 lg:space-y-6">
-              <h3 className="plain-regular leading-7 text-[#2d2d2d] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] lg:leading-10">
-                Paint and Movie Magic
+              <h3 className="plain-regular leading-7 text-brandPurple-900 sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] lg:leading-10">
+                Festival de Bomba y Plena
               </h3>
               <div className="pb-4">
-                <p className="plain-regular pb-12 text-[0.8rem] text-[#2d2d2d] md:text-[0.9rem] lg:text-[1.1rem]">
-                  A close look at Disney's animation cels and drawings reveals a
-                  side to movie magic that often goes unseen.
+                <p className="plain-regular pb-12 text-[0.8rem] text-gray-600 md:text-[0.9rem] lg:text-[1.1rem]">
+                  Celebra los ritmos tradicionales de Puerto Rico con nuestro 
+                  festival anual de bomba y plena.
                 </p>
               </div>
             </div>
           </div>
-          <div className="mt-20 hidden border-r-2 border-[#777572] pr-5 pl-5 lg:grid">
-            <Image
-              src="/images/Dusasa.jpg"
-              alt="Dusasa"
-              width={342}
-              height={245}
-            />
+          <div className="mt-20 hidden border-r-2 border-brandPurple-300 pr-5 pl-5 lg:grid">
+            <div className="w-full h-48 border-2 border-brandPurple-200 rounded-lg flex items-center justify-center">
+              <span className="text-brandPurple-900 text-lg font-bold">MEMBRESÍA</span>
+            </div>
             <div className="mt-8 space-y-6">
-              <h3 className="plain-regular text-[1.7rem] leading-10 text-[#2d2d2d]">
-                Contribute to our future
+              <h3 className="plain-regular text-[1.7rem] leading-10 text-brandPurple-900">
+                Únete a nuestra familia
               </h3>
               <div className="pb-20">
-                <p className="plain-regular pb-12 text-[1.1rem] text-[#2d2d2d]">
-                  Support our mission in a new way. Become a member.
+                <p className="plain-regular pb-12 text-[1.1rem] text-gray-600">
+                  Apoya nuestra misión de preservar la música puertorriqueña. 
+                  Conviértete en miembro.
                 </p>
               </div>
             </div>
           </div>
-          <div className="mt-20 hidden border-[#777572] pr-5 pl-5 lg:grid">
-            <Image
-              src="/images/AG.png"
-              alt="Audio Guide"
-              width={342}
-              height={245}
-            />
+          <div className="mt-20 hidden border-brandPurple-300 pr-5 pl-5 lg:grid">
+            <div className="w-full h-48 border-2 border-brandPurple-200 rounded-lg flex items-center justify-center">
+              <span className="text-brandPurple-900 text-lg font-bold">AUDIO</span>
+            </div>
             <div className="mt-8 space-y-6">
-              <h3 className="plain-regular text-[1.7rem] leading-10 text-[#2d2d2d]">
-                Audio Guide
+              <h3 className="plain-regular text-[1.7rem] leading-10 text-brandPurple-900">
+                Guía de Audio
               </h3>
               <div className="pb-0">
-                <p className="plain-regular pb-12 text-[1.1rem] text-[#2d2d2d]">
-                  Listen to contemporary indigenous artists, curators, and
-                  historians who share their perspectives on the traditions and
-                  techniques on display from the Charles and Valerie Diker
-                  Collection.
+                <p className="plain-regular pb-12 text-[1.1rem] text-gray-600">
+                  Escucha a músicos, curadores e historiadores que comparten 
+                  sus perspectivas sobre la música tradicional puertorriqueña.
                 </p>
               </div>
             </div>
           </div>
         </div>
         <div className="mb-12 block text-center lg:hidden">
-          <a href="/" className="plain-regular text-md text-[#ec0426]">
-            See all
+          <a href="/" className="plain-regular text-md text-brandPurple-600 hover:text-brandPurple-800 transition-colors">
+            Ver todo
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="45px"
               height="35px"
-              fill="#ec0426"
+              fill="#AC3A89"
               viewBox="0 0 29 32"
               version="1.1"
               className="inline-block"

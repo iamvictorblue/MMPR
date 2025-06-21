@@ -5,18 +5,18 @@ export default function Explore() {
       <div className="mx-auto mb-28 lg:container lg:mb-60 xl:px-2">
         <div className="flex items-center justify-between">
           <div className="">
-            <h2 className="ogg-regular mb-6 pl-4 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-0 lg:pl-0 lg:text-[4.1rem] lg:leading-[14rem]">
-              More to explore online
+            <h2 className="ogg-regular mb-6 pl-4 text-[3rem] leading-[3rem] text-brandPurple-900 lg:mb-0 lg:pl-0 lg:text-[4.1rem] lg:leading-[14rem]">
+              Más para explorar en línea
             </h2>
           </div>
           <div>
-            <a href="/" className="plain-regular text-md text-[#ec0426]">
-              See all
+            <a href="/" className="plain-regular text-md text-brandPurple-600 hover:text-brandPurple-800 transition-colors">
+              Ver todo
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="45px"
                 height="35px"
-                fill="#ec0426"
+                fill="#AC3A89"
                 viewBox="0 0 29 32"
                 version="1.1"
                 className="inline-block"
@@ -29,25 +29,25 @@ export default function Explore() {
           </div>
         </div>
         <div className="grid grid-cols-1 px-4 lg:px-0">
-          <div className="flex flex-col border-t-2 border-[#c2bfba] lg:flex-row">
+          <div className="flex flex-col border-t-2 border-brandPurple-200 lg:flex-row">
             <div className="basis-1/2 pt-8 pb-2 lg:py-24">
-              <h3 className="ogg-medium text-[2.6rem] leading-10 text-[#2d2d2d]">
-                COLLECTION AREAS
+              <h3 className="ogg-medium text-[2.6rem] leading-10 text-brandPurple-900">
+                COLECCIÓN DE INSTRUMENTOS
               </h3>
             </div>
             <div className="basis-1/2 py-4 lg:ml-12 lg:py-24">
-              <p className="plain-regular max-w-[22rem] text-sm text-[#93928e]">
-                These collection areas study, exhibit, and care for the objects
-                in The Met collection.
+              <p className="plain-regular max-w-[22rem] text-sm text-gray-600">
+                Explora nuestra colección de instrumentos tradicionales puertorriqueños, 
+                desde el cuatro hasta el güiro, cada uno con su historia única.
               </p>
             </div>
             <div className="py-4 lg:py-24">
-              <a href="/">
+              <a href="/instruments">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="50px"
                   height="50px"
-                  fill="#2d2c2c"
+                  fill="#AC3A89"
                   viewBox="0 0 29 18"
                   version="1.1"
                 >
@@ -58,25 +58,25 @@ export default function Explore() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col border-t-2 border-[#c2bfba] lg:flex-row">
+          <div className="flex flex-col border-t-2 border-brandPurple-200 lg:flex-row">
             <div className="basis-1/2 pt-8 pb-2 lg:py-24">
-              <h3 className="ogg-medium text-[2.6rem] leading-10 text-[#2d2d2d]">
-                CELEBRATING 150 YEARS
+              <h3 className="ogg-medium text-[2.6rem] leading-10 text-brandPurple-900">
+                HISTORIA MUSICAL
               </h3>
             </div>
             <div className="basis-1/2 py-4 lg:ml-12 lg:py-24">
-              <p className="plain-regular max-w-[22rem] text-sm text-[#93928e]">
-                Honoring The Met&apos;s anniversary throughout 2020 with
-                exhibitions, events, and new ways to connect with art.
+              <p className="plain-regular max-w-[22rem] text-sm text-gray-600">
+                Descubre la rica historia musical de Puerto Rico, desde los 
+                ritmos taínos hasta la música contemporánea que define nuestra cultura.
               </p>
             </div>
             <div className="py-4 lg:py-24">
-              <a href="/">
+              <a href="/history">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="50px"
                   height="50px"
-                  fill="#2d2c2c"
+                  fill="#AC3A89"
                   viewBox="0 0 29 18"
                   version="1.1"
                 >
@@ -87,26 +87,25 @@ export default function Explore() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col border-t-2 border-[#c2bfba] lg:flex-row">
+          <div className="flex flex-col border-t-2 border-brandPurple-200 lg:flex-row">
             <div className="basis-1/2 pt-8 pb-2 lg:py-24">
-              <h3 className="ogg-medium text-[2.6rem] leading-10 text-[#2d2d2d]">
-                TRAVEL WITH THE MET
+              <h3 className="ogg-medium text-[2.6rem] leading-10 text-brandPurple-900">
+                CLASES Y TALLERES
               </h3>
             </div>
             <div className="basis-1/2 py-4 lg:ml-12 lg:py-24">
-              <p className="plain-regular max-w-[22rem] text-sm text-[#93928e]">
-                Our trips offer travelers the unique opportunity to see the
-                world and humanity&apos;s highest artistic achievements with the
-                guidance of The Met&apos;s renowed curators and educators.
+              <p className="plain-regular max-w-[22rem] text-sm text-gray-600">
+                Participa en nuestros talleres educativos y clases de música 
+                tradicional puertorriqueña para todas las edades y niveles.
               </p>
             </div>
             <div className="py-4 lg:py-24">
-              <a href="/">
+              <a href="/education">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="50px"
                   height="50px"
-                  fill="#2d2c2c"
+                  fill="#AC3A89"
                   viewBox="0 0 29 18"
                   version="1.1"
                 >
@@ -117,25 +116,25 @@ export default function Explore() {
               </a>
             </div>
           </div>
-          <div className="flex flex-col border-t-2 border-b-2 border-[#c2bfba] lg:flex-row">
+          <div className="flex flex-col border-t-2 border-b-2 border-brandPurple-200 lg:flex-row">
             <div className="basis-1/2 pt-8 pb-2 lg:py-24">
-              <h3 className="ogg-medium text-[2.6rem] leading-10 text-[#2d2d2d]">
-                VIRTUAL EVENTS
+              <h3 className="ogg-medium text-[2.6rem] leading-10 text-brandPurple-900">
+                EVENTOS ESPECIALES
               </h3>
             </div>
             <div className="basis-1/2 py-4 lg:ml-12 lg:py-24">
-              <p className="plain-regular max-w-[22rem] text-sm text-[#93928e]">
-                Engage with art and culture remotely with a variety of virtual
-                events for all audiences.
+              <p className="plain-regular max-w-[22rem] text-sm text-gray-600">
+                Únete a nuestros eventos especiales, conciertos y presentaciones 
+                que celebran la música puertorriqueña en todas sus formas.
               </p>
             </div>
             <div className="py-4 lg:py-24">
-              <a href="/">
+              <a href="/events">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="50px"
                   height="50px"
-                  fill="#2d2c2c"
+                  fill="#AC3A89"
                   viewBox="0 0 29 18"
                   version="1.1"
                 >

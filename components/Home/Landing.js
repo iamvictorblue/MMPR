@@ -3,6 +3,7 @@ import React from "react";
 import { motion, AnimateSharedLayout } from "framer-motion";
 import useMediaQuery from "../useMediaQuery";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Landing({ variants }) {
   let easing = [0.6, -0.05, 0.01, 0.99];
@@ -102,126 +103,167 @@ export default function Landing({ variants }) {
         <div className="relative flex justify-center">
           <AnimateSharedLayout type="crossfade">
             <motion.div variants={container} initial="hidden" animate="show">
-              <div className="imggrid z-0 pr-44 pl-12">
-                <div className="pos-1 hidden lg:grid">
-                  <div className="relative h-[9.2rem] w-28 bg-cover">
-                    <motion.div variants={variants}>
-                      <motion.div variants={item}>
-                        <Image
-                          alt="Iyoba"
-                          src="/images/Iyoba.webp"
-                          height={180}
-                          width={130}
-                        />
-                      </motion.div>
-                    </motion.div>
-                  </div>
-                </div>
-                <div className="pos-2 hidden lg:grid">
-                  <div className="relative h-44 w-36 bg-cover">
-                    <motion.div variants={variants}>
-                      <motion.div variants={item} className="mr-2">
-                        <Image
-                          alt="Brinley"
-                          src="/images/Brinley.webp"
-                          height={195}
-                          width={145}
-                        />
-                      </motion.div>
-                    </motion.div>
-                  </div>
-                </div>
-                <div className="pos-3 hidden lg:grid">
-                  <div className="relative h-44 w-32 bg-cover">
-                    <motion.div variants={variants}>
-                      <motion.div variants={item}>
-                        <Image
-                          alt="Pieta"
-                          src="/images/Pieta.webp"
-                          height={190}
-                          width={130}
-                        />
-                      </motion.div>
-                    </motion.div>
-                  </div>
-                </div>
-                <div className="pos-4 hidden lg:grid">
-                  <div className="relative h-32 w-24  bg-cover">
-                    <motion.div variants={variants}>
-                      <motion.div variants={item}>
-                        <Image
-                          alt="Bronzino"
-                          src="/images/Bronzino.webp"
-                          height={185}
-                          width={145}
-                        />
-                      </motion.div>
-                    </motion.div>
-                  </div>
-                </div>
-                <div className="pos-5 hidden lg:grid">
-                  <div className="relative h-28 w-32 bg-cover">
-                    <motion.div variants={variants}>
-                      <motion.div variants={item}>
-                        <Image
-                          alt="Dionysos"
-                          src="/images/Dionysos.webp"
-                          height={170}
-                          width={130}
-                        />
-                      </motion.div>
-                    </motion.div>
-                  </div>
-                </div>
+              <div className="z-10 w-full text-center relative">
+                <motion.div
+                  variants={isDesktop ? fadeInUp : fadeInUpMobile}
+                  className="mb-16 mt-8 lg:mt-12"
+                >
+                  <Image
+                    src="/images/LOGO MUSEO.png"
+                    alt="Museo de la Música Puertorriqueña"
+                    width={300}
+                    height={300}
+                    className="mx-auto w-auto h-auto"
+                    priority
+                  />
+                </motion.div>
+                <h1 className="ogg-medium mb-4 text-[3.5rem] leading-[3.5rem] text-brandPurple-900 lg:text-[6.5rem] lg:leading-[6.5rem]">
+                  BIENVENIDO
+                </h1>
               </div>
             </motion.div>
           </AnimateSharedLayout>
-          <div className="z-10 w-full text-left lg:text-center">
-            <motion.div initial="initial" animate="animate">
-              <motion.h2
-                variants={isDesktop ? fadeInUp : fadeInUpMobile}
-                className="ogg-regular mb-4 mt-8 text-[4.2rem] leading-[4rem] text-[#303030] md:text-[5rem] lg:mt-24 lg:text-[11rem] lg:leading-[12rem]"
-              >
-                Welcome <span className="ogg-regular-italic">to</span> The Met
-              </motion.h2>
-            </motion.div>
-            <div className="plain-medium ml-0 mt-6 flex justify-start text-left lg:mt-14 lg:ml-72 lg:justify-center">
-              <motion.div
-                initial="initial"
-                animate="animate"
-                className="flex flex-col"
-              >
-                <motion.span
-                  variants={isDesktop ? fadeInUp2 : fadeInUp2Mobile}
-                  className="max-w-[17rem] leading-5"
-                >
-                  For the health and safety of our staff and visitors, capacity
-                  is limited. Prepare for longer lines outside the Museum.
-                </motion.span>
-                <motion.div
-                  variants={isDesktop ? fadeInUp2 : fadeInUp2Mobile}
-                  className="mt-6 inline-block"
-                >
-                  <a href="/" className="inline-block text-[#ec0426]">
-                    Read our visitor guidelines
-                  </a>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="30px"
-                    height="28px"
-                    fill="#ec0426"
-                    viewBox="0 0 29 28"
-                    version="1.1"
-                    className="ml-1 mb-1 inline-block"
-                  >
-                    <g id="surface1">
-                      <path d="M 22.488281 6.398438 C 21.9375 6.734375 20.484375 7.464844 19.871094 7.71875 C 17.703125 8.605469 15.613281 9.140625 13.246094 9.421875 C 12.148438 9.550781 11.300781 9.578125 10.683594 9.496094 C 10.085938 9.417969 9.503906 9.300781 8.816406 9.109375 C 8.519531 9.027344 8.277344 8.96875 8.273438 8.972656 C 8.253906 8.996094 11.246094 11.324219 13.542969 13.066406 C 14.164062 13.539062 14.679688 13.9375 14.6875 13.953125 C 14.695312 13.96875 14.4375 14.253906 14.109375 14.582031 C 13.78125 14.914062 12.101562 16.636719 10.371094 18.414062 L 7.222656 21.644531 L 7.660156 22.09375 L 8.101562 22.542969 L 11.820312 18.675781 C 13.871094 16.546875 15.550781 14.804688 15.5625 14.804688 C 15.570312 14.804688 15.851562 15.160156 16.1875 15.601562 C 17.539062 17.359375 18.671875 18.933594 19.609375 20.335938 L 20.171875 21.175781 L 20.171875 19.226562 C 20.171875 17.140625 20.199219 16.664062 20.390625 15.097656 C 20.730469 12.308594 21.597656 9.097656 22.679688 6.613281 C 22.777344 6.382812 22.859375 6.191406 22.851562 6.1875 C 22.847656 6.183594 22.683594 6.28125 22.488281 6.398438 Z M 22.488281 6.398438 " />
-                    </g>
-                  </svg>
-                </motion.div>
-              </motion.div>
+        </div>
+
+        <div className="max-w-4xl mx-auto mt-12">
+          <div className="space-y-6 text-gray-700 text-lg leading-relaxed mb-16">
+            <p>
+              El Instituto de Cultura Puertorriqueña, en su compromiso como custodio y cronista del quehacer cultural de nuestra Isla, presenta en este museo un mosaico que rinde homenaje a las músicas, géneros, compositores e intérpretes que conforman el rico y diverso patrimonio musical de Puerto Rico.
+            </p>
+            
+            <p>
+              A pesar de nuestra condición colonial en el ámbito político, Puerto Rico ha sido, en el plano musical, un imperio mundial. El presente museo se ha concebido como una muestra representativa de dicha grandeza. La amplitud, profundidad y trascendencia de nuestros géneros musicales exigen espacios museísticos de gran escala—quizás edificios enteros—para albergar con justicia la totalidad de nuestro legado artístico. A sabiendas de las limitaciones del espacio, hemos optado por una curaduría que privilegia el valor histórico de las principales expresiones musicales seleccionadas.
+            </p>
+            
+            <p>
+              Sabemos que las cincuenta exposiciones permanentes aquí reunidas bastarán para avivar el orgullo nacional que nos despierta la música puertorriqueña—expresión viva de nuestra raíz, nuestra historia y nuestra alma como puertorriqueños.
+            </p>
+
+            <div className="mt-8 text-right">
+              <p className="text-brandPurple-700 font-semibold">Dr. José Antonio López</p>
+              <p className="text-gray-600">Curador</p>
+              <p className="text-gray-600">20 de junio de 2025</p>
             </div>
           </div>
+
+          <motion.div variants={fadeInUp} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Bomba Room */}
+            <Link href="/bomba" className="group">
+              <div className="p-8 rounded-lg transition-all duration-300 bg-white hover:bg-orange-100 border border-gray-200 flex flex-col items-center">
+                <Image
+                  src="/images/Bomba LOGO (BLACK).svg"
+                  alt="Bomba"
+                  width={200}
+                  height={100}
+                  className="w-auto h-24 mb-4"
+                />
+              </div>
+            </Link>
+
+            {/* Danza Room */}
+            <Link href="/danza" className="group">
+              <div className="p-8 rounded-lg transition-all duration-300 bg-white hover:bg-gray-100 border border-gray-200 flex flex-col items-center">
+                <Image
+                  src="/images/Danza Puertorriquena LOGO (BLACK).svg"
+                  alt="Danza"
+                  width={200}
+                  height={100}
+                  className="w-auto h-24 mb-4"
+                />
+              </div>
+            </Link>
+
+            {/* Música de Concierto Room */}
+            <Link href="/musica-concierto" className="group">
+              <div className="p-8 rounded-lg transition-all duration-300 bg-white hover:bg-red-100 border border-gray-200 flex flex-col items-center">
+                <Image
+                  src="/images/Musica Concierto LOGO (BLACK).svg"
+                  alt="Música de Concierto"
+                  width={200}
+                  height={100}
+                  className="w-auto h-24 mb-4"
+                />
+              </div>
+            </Link>
+
+            {/* Galería del Cuatro Room */}
+            <Link href="/cuatro" className="group">
+              <div className="p-8 rounded-lg transition-all duration-300 bg-white hover:bg-blue-100 border border-gray-200 flex flex-col items-center">
+                <Image
+                  src="/images/Galeria del Cuatro LOGO (BLACK).svg"
+                  alt="Galería del Cuatro"
+                  width={200}
+                  height={100}
+                  className="w-auto h-24 mb-4"
+                />
+              </div>
+            </Link>
+
+            {/* Plena Room */}
+            <Link href="/plena" className="group">
+              <div className="p-8 rounded-lg transition-all duration-300 bg-white hover:bg-green-100 border border-gray-200 flex flex-col items-center">
+                <Image
+                  src="/images/PLENA LOGO (BLACK).svg"
+                  alt="Plena"
+                  width={200}
+                  height={100}
+                  className="w-auto h-24 mb-4"
+                />
+              </div>
+            </Link>
+
+            {/* Canción Popular Room */}
+            <Link href="/cancion-popular" className="group">
+              <div className="p-8 rounded-lg transition-all duration-300 bg-white hover:bg-amber-100 border border-gray-200 flex flex-col items-center">
+                <Image
+                  src="/images/CANCION POPULAR LOGO (BLACK).svg"
+                  alt="Canción Popular"
+                  width={200}
+                  height={100}
+                  className="w-auto h-24 mb-4"
+                />
+              </div>
+            </Link>
+
+            {/* Bolero Room */}
+            <Link href="/bolero" className="group">
+              <div className="p-8 rounded-lg transition-all duration-300 bg-white hover:bg-gray-100 border border-gray-200 flex flex-col items-center">
+                <Image
+                  src="/images/Bolero LOGO (BLACK).svg"
+                  alt="Bolero"
+                  width={200}
+                  height={100}
+                  className="w-auto h-24 mb-4"
+                />
+              </div>
+            </Link>
+
+            {/* Salsa Room */}
+            <Link href="/salsa" className="group">
+              <div className="p-8 rounded-lg transition-all duration-300 bg-white hover:bg-orange-100 border border-gray-200 flex flex-col items-center">
+                <Image
+                  src="/images/SALSA LOGO (BLACK).svg"
+                  alt="Salsa"
+                  width={200}
+                  height={100}
+                  className="w-auto h-24 mb-4"
+                />
+              </div>
+            </Link>
+
+            {/* Salón Güiro Room */}
+            <Link href="/salon-guiro" className="group">
+              <div className="p-8 rounded-lg transition-all duration-300 bg-white hover:bg-purple-100 border border-gray-200 flex flex-col items-center">
+                <Image
+                  src="/images/Salon Guiro LOGO (BLACK).svg"
+                  alt="Salón Güiro"
+                  width={200}
+                  height={100}
+                  className="w-auto h-24 mb-4"
+                />
+              </div>
+            </Link>
+          </motion.div>
         </div>
       </div>
     </>
