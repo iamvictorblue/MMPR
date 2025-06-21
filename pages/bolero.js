@@ -83,8 +83,8 @@ export default function Bolero() {
               <div className="space-y-6">
                 <div className="bg-white border-l-4 border-bolero-600 p-8">
                   <h3 className="ogg-medium text-2xl text-bolero-900 mb-4">Historia en Puerto Rico</h3>
-                  <p className="text-lg text-gray-700">
-                    El bolero en Puerto Rico tiene una rica historia que se remonta a principios del siglo XX. Los compositores puertorriqueños han contribuido significativamente al desarrollo del género, creando un estilo distintivo que ha influido en toda la música latina.
+                  <p className="text-lg text-gray-700 mb-6">
+                    El bolero es considerado como &quot;el rey de la música romántica&quot; y &quot;la canción de amor por excelencia&quot;.
                   </p>
                 </div>
 

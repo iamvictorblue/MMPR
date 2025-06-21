@@ -70,8 +70,11 @@ export default function Cuatro() {
               <div className="space-y-6">
                 <div className="bg-white border-l-4 border-cuatro-600 p-8">
                   <h3 className="ogg-medium text-2xl text-cuatro-900 mb-4">Historia y Evolución</h3>
+                  <p className="text-lg text-gray-700 mb-6">
+                    El cuatro puertorriqueño es &quot;el instrumento nacional de Puerto Rico&quot; y &quot;el corazón de nuestra música jíbara&quot;.
+                  </p>
                   <p className="text-lg text-gray-700">
-                    El cuatro puertorriqueño es el resultado de siglos de evolución musical y cultural. Sus orígenes se remontan a instrumentos europeos traídos durante la colonización, pero su forma y sonido únicos son producto de la creatividad y necesidades musicales del pueblo puertorriqueño.
+                    Sus orígenes se remontan a instrumentos europeos traídos durante la colonización, pero su forma y sonido únicos son producto de la creatividad y necesidades musicales del pueblo puertorriqueño.
                   </p>
                 </div>
 

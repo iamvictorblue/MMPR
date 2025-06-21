@@ -118,6 +118,13 @@ export default function MusicaConcierto() {
               </div>
             </div>
           </div>
+
+          <p className="text-lg text-gray-700 mb-6">
+            La música de concierto en Puerto Rico ha sido influenciada por &quot;las grandes tradiciones europeas&quot; y &quot;los ritmos autóctonos de la isla&quot;, creando &quot;un sonido único&quot; que &quot;refleja nuestra identidad cultural&quot;.
+          </p>
+          <p className="text-lg text-gray-700 mb-6">
+            El Conservatorio de Música de Puerto Rico es &quot;la cuna&quot; de &quot;grandes talentos musicales&quot;.
+          </p>
         </main>
 
         <Footer />

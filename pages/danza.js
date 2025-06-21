@@ -125,6 +125,13 @@ export default function Danza() {
               </div>
             </div>
           </div>
+
+          <p className="text-lg text-gray-700 mb-6">
+            La danza puertorriqueña es &quot;la expresión más refinada de nuestra música&quot; y representa un momento crucial en la historia cultural de Puerto Rico.
+          </p>
+          <p className="text-lg text-gray-700 mb-6">
+            La danza es &quot;el género que elevó la música puertorriqueña&quot; a nuevas alturas de sofisticación y expresión artística.
+          </p>
         </main>
 
         <Footer />
