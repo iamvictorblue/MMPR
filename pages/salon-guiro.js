@@ -196,19 +196,6 @@ export default function SalonGuiro() {
               </div>
             </div>
           </div>
-
-          {/* Imágenes para añadir en GUIRO */}
-          <div className="mb-16 bg-gradient-to-r from-brandPurple-50 to-brandPurple-100 p-8 rounded-lg">
-            <div className="text-center mb-8">
-              <h2 className="ogg-medium text-3xl text-brandPurple-900 mb-4">Imágenes para añadir en GUIRO</h2>
-              <div className="w-32 h-1 bg-brandPurple-600 mx-auto"></div>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-              <a href="https://app.box.com/s/pzd9kexk0csayh4v18wbm317sq83audj" target="_blank" rel="noopener noreferrer" className="text-brandPurple-700 underline text-lg">
-                Ver imágenes del Salón Güiro
-              </a>
-            </div>
-          </div>
         </main>
 
         <Footer />

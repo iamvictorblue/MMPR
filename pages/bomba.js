@@ -37,6 +37,30 @@ export default function Bomba() {
               <h1 className="ogg-regular text-4xl text-bomba-700 mb-4 lg:text-6xl">
                 Herencia Africana
               </h1>
+              {/* Bomba Gallery Images */}
+              <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+                <Image
+                  src="/images/BOMBA/Bomba.png"
+                  alt="Bomba Escena"
+                  width={400}
+                  height={300}
+                  className="rounded-lg shadow-lg object-cover w-full h-auto"
+                />
+                <Image
+                  src="/images/BOMBA/Bomba2.png"
+                  alt="Bomba Escena 2"
+                  width={400}
+                  height={300}
+                  className="rounded-lg shadow-lg object-cover w-full h-auto"
+                />
+                <Image
+                  src="/images/BOMBA/Bomba FAMILIA CEPEDA.png"
+                  alt="Familia Cepeda"
+                  width={400}
+                  height={300}
+                  className="rounded-lg shadow-lg object-cover w-full h-auto"
+                />
+              </div>
             </div>
           </AnimatedContainer>
 
@@ -136,38 +160,28 @@ export default function Bomba() {
                 <h2 className="ogg-medium text-3xl text-bomba-900 mb-4">BOMBA</h2>
                 <div className="w-32 h-1 bg-bomba-600 mx-auto"></div>
               </div>
-              
-              <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="ogg-medium text-2xl text-bomba-900 mb-6 text-center">RAFAEL CEPEDA ATILES<br/>EL PATRIARCA DE LA BOMBA</h3>
-                
-                <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+              <div className="flex flex-col lg:flex-row items-center gap-8">
+                <div className="flex-1">
+                  <Image
+                    src="/images/BOMBA/Bomba RAFAEL CEPEDA.png"
+                    alt="Rafael Cepeda Atiles"
+                    width={500}
+                    height={600}
+                    className="rounded-lg shadow-lg object-cover w-full h-auto"
+                  />
+                </div>
+                <div className="flex-1 space-y-6 text-lg text-gray-700 leading-relaxed">
+                  <h3 className="ogg-medium text-2xl text-bomba-900 mb-6 text-center lg:text-left">RAFAEL CEPEDA ATILES<br/>EL PATRIARCA DE LA BOMBA</h3>
                   <p>
                     Don Rafael Cepeda fue un brillante y prolífico compositor, músico, director y folclorista auténtico, reconocido como una de las figuras más destacadas de la cultura puertorriqueña. Su legado como patriarca indiscutible de la música y el baile de la Bomba y la Plena trascendió las fronteras de Puerto Rico, dejando una huella imborrable en la historia cultural de la isla.
                   </p>
-                  
                   <p>
                     Cepeda dedicó su vida a cultivar, defender y exponer la expresión cultural de la Bomba, asegurando su preservación y transmisión a nuevas generaciones. Gracias a su contribución, el Smithsonian Institute lo condecoró como "el mejor folclorista del mundo," un reconocimiento que subraya el impacto global de la música tradicional puertorriqueña.
                   </p>
-                  
                   <p>
                     Sus composiciones han sido interpretadas por agrupaciones tanto locales como internacionales. Entre sus plenas más destacadas se incluyen <em>El Bombón de Elena</em> y <em>A la Verdegué</em>, las cuales continúan resonando en la tradición musical puertorriqueña.
                   </p>
                 </div>
-              </div>
-            </div>
-          </AnimatedContainer>
-
-          {/* Imágenes para añadir en BOMBA */}
-          <AnimatedContainer delay={1.0}>
-            <div className="mb-16 bg-gradient-to-r from-bomba-50 to-bomba-100 p-8 rounded-lg">
-              <div className="text-center mb-8">
-                <h2 className="ogg-medium text-3xl text-bomba-900 mb-4">Imágenes para añadir en BOMBA</h2>
-                <div className="w-32 h-1 bg-bomba-600 mx-auto"></div>
-              </div>
-              <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-                <a href="https://app.box.com/s/etxknlwjb3ittjyuzasb62bscx9dbddn" target="_blank" rel="noopener noreferrer" className="text-bomba-700 underline text-lg">
-                  Ver imágenes de la sala Bomba
-                </a>
               </div>
             </div>
           </AnimatedContainer>

@@ -32,8 +32,18 @@ export default function MusicaConcierto() {
               />
             </div>
             <h1 className="ogg-regular text-4xl text-concierto-700 mb-4 lg:text-6xl">
-              EN PUERTO RICO
+              
             </h1>
+            {/* Música de Concierto Gallery Image */}
+            <div className="mt-8 flex justify-center">
+              <Image
+                src="/images/MUSICA CONCIERTO/Musica Concierto (TEATRO).png"
+                alt="Teatro de Música de Concierto"
+                width={600}
+                height={400}
+                className="rounded-lg shadow-lg object-cover w-full h-auto"
+              />
+            </div>
           </div>
 
           {/* Antonio Paoli Section */}
@@ -42,7 +52,6 @@ export default function MusicaConcierto() {
               <h2 className="ogg-medium text-5xl text-concierto-800 mb-4">ANTONIO PAOLI</h2>
               <div className="w-24 h-1 bg-concierto-600 mx-auto"></div>
             </div>
-
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
               <div className="space-y-6">
                 <div className="bg-gradient-to-br from-concierto-50 to-concierto-100 p-8">
@@ -50,7 +59,6 @@ export default function MusicaConcierto() {
                     La cultura musical puertorriqueña se honra al contar con Antonio Paoli como el primer músico y artista puertorriqueño en alcanzar fama internacional. Nacido en Ponce el 14 de abril de 1871, Paoli se trasladó a España a los 12 años. Más tarde, gracias a la intervención de su hermana Amalia, recibió una formación vocal completa en Italia, reconocida mundialmente como la cuna del Bel Canto.
                   </p>
                 </div>
-
                 <div className="bg-concierto-600 text-white p-8">
                   <h3 className="ogg-medium text-2xl mb-4">Logros Internacionales</h3>
                   <p className="text-lg leading-relaxed">
@@ -58,33 +66,14 @@ export default function MusicaConcierto() {
                   </p>
                 </div>
               </div>
-
-              <div className="space-y-6">
-                <div className="bg-gradient-to-br from-concierto-500 to-concierto-700 text-white p-8">
-                  <h3 className="ogg-medium text-xl mb-4">Ciudades Conquistadas</h3>
-                  <ul className="space-y-2 text-lg">
-                    <li>• Milán - La Scala</li>
-                    <li>• Londres - Royal Opera House</li>
-                    <li>• París - Opéra Garnier</li>
-                    <li>• Buenos Aires - Teatro Colón</li>
-                  </ul>
-                </div>
-
-                <div className="bg-white border-l-4 border-concierto-600 p-8">
-                  <h3 className="ogg-medium text-2xl text-concierto-900 mb-4">Reconocimientos</h3>
-                  <div className="space-y-4">
-                    <div className="border-l-4 border-concierto-600 pl-4">
-                      <p className="text-lg text-gray-700">
-                        En Milán, cuna de la ópera, fue honrado con el título de <strong>"Primo Tenore"</strong>.
-                      </p>
-                    </div>
-                    <div className="border-l-4 border-concierto-600 pl-4">
-                      <p className="text-lg text-gray-700">
-                        Fue seleccionado para inaugurar el <strong>Teatro Colón de Buenos Aires</strong>, uno de los escenarios más prestigiosos del mundo.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              <div className="flex flex-col items-center gap-6">
+                <Image
+                  src="/images/MUSICA CONCIERTO/Musica Concierto (PAOLI).png"
+                  alt="Antonio Paoli"
+                  width={200}
+                  height={100}
+                  className="rounded-lg shadow-lg object-cover w-auto h-auto"
+                />
               </div>
             </div>
           </div>
@@ -125,19 +114,6 @@ export default function MusicaConcierto() {
           <p className="text-lg text-gray-700 mb-6">
             El Conservatorio de Música de Puerto Rico es "la cuna" de "grandes talentos musicales".
           </p>
-
-          {/* Imágenes para añadir en Música de Concierto */}
-          <div className="mb-16 bg-gradient-to-r from-concierto-50 to-concierto-100 p-8 rounded-lg">
-            <div className="text-center mb-8">
-              <h2 className="ogg-medium text-3xl text-concierto-900 mb-4">Imágenes para añadir en Música de Concierto</h2>
-              <div className="w-32 h-1 bg-concierto-600 mx-auto"></div>
-            </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-              <a href="https://app.box.com/s/vhmt9yfb5d97t6x3jjn24b9eyas89rms" target="_blank" rel="noopener noreferrer" className="text-concierto-700 underline text-lg">
-                Ver imágenes de la sala Música de Concierto
-              </a>
-            </div>
-          </div>
         </main>
 
         <Footer />

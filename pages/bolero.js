@@ -36,6 +36,16 @@ export default function Bolero() {
               <h1 className="ogg-regular text-4xl text-bolero-700 mb-4 lg:text-6xl">
                 BOLERO PUERTORRIQUEÑO
               </h1>
+              {/* Bolero Gallery Image */}
+              <div className="mt-8 flex justify-center">
+                <Image
+                  src="/images/BOLERO/BOLERO (DANIEL SANTOS) DISCOS.png"
+                  alt="Daniel Santos Discos"
+                  width={500}
+                  height={400}
+                  className="rounded-lg shadow-lg object-cover w-full h-auto"
+                />
+              </div>
             </div>
           </AnimatedContainer>
 
@@ -169,11 +179,18 @@ export default function Bolero() {
                 <h2 className="ogg-medium text-3xl text-bolero-900 mb-4">BOLERO</h2>
                 <div className="w-32 h-1 bg-bolero-600 mx-auto"></div>
               </div>
-              
-              <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="ogg-medium text-2xl text-bolero-900 mb-6 text-center">Añadir info en BOLERO:</h3>
-                
-                <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+              <div className="flex flex-col lg:flex-row items-center gap-8">
+                <div className="flex-1">
+                  <Image
+                    src="/images/BOLERO/BOLERO (DANIEL SANTOS).jpg"
+                    alt="Daniel Santos"
+                    width={400}
+                    height={500}
+                    className="rounded-lg shadow-lg object-cover w-full h-auto"
+                  />
+                </div>
+                <div className="flex-1 space-y-6 text-lg text-gray-700 leading-relaxed">
+                  <h3 className="ogg-medium text-2xl text-bolero-900 mb-6 text-center lg:text-left">BOLERO:</h3>
                   <div className="text-center mb-6">
                     <h4 className="ogg-medium text-xl text-bolero-800 mb-4">DANIEL SANTOS</h4>
                     <blockquote className="italic text-lg text-bolero-700 border-l-4 border-bolero-600 pl-4">
@@ -182,21 +199,6 @@ export default function Bolero() {
                     <p className="text-right text-bolero-600 font-semibold mt-2">Jaime Rico Salazar<br/>Musicólogo Colombiano</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </AnimatedContainer>
-
-          {/* Imágenes para añadir en BOLERO */}
-          <AnimatedContainer delay={1.4}>
-            <div className="mb-16 bg-gradient-to-r from-bolero-50 to-bolero-100 p-8 rounded-lg">
-              <div className="text-center mb-8">
-                <h2 className="ogg-medium text-3xl text-bolero-900 mb-4">Imágenes para añadir en BOLERO</h2>
-                <div className="w-32 h-1 bg-bolero-600 mx-auto"></div>
-              </div>
-              <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-                <a href="https://app.box.com/s/9qw0ym49x6ugctdir2odt63ide6jioin" target="_blank" rel="noopener noreferrer" className="text-bolero-700 underline text-lg">
-                  Ver imágenes de la sala Bolero
-                </a>
               </div>
             </div>
           </AnimatedContainer>
