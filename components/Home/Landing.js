@@ -118,8 +118,11 @@ export default function Landing({ variants }) {
                   />
                 </motion.div>
                 <h1 className="ogg-medium mb-4 text-[3.5rem] leading-[3.5rem] text-brandPurple-900 lg:text-[6.5rem] lg:leading-[6.5rem]">
-                  BIENVENIDO
+                  Museo de la Música Puertorriqueña
                 </h1>
+                <h2 className="text-2xl mb-12 text-gray-700">
+                  Un mosaico de nuestras músicas
+                </h2>
               </div>
             </motion.div>
           </AnimateSharedLayout>
@@ -128,21 +131,29 @@ export default function Landing({ variants }) {
         <div className="max-w-4xl mx-auto mt-12">
           <div className="space-y-6 text-gray-700 text-lg leading-relaxed mb-16">
             <p>
-              El Instituto de Cultura Puertorriqueña, en su compromiso como custodio y cronista del quehacer cultural de nuestra Isla, presenta en este museo un mosaico que rinde homenaje a las músicas, géneros, compositores e intérpretes que conforman el rico y diverso patrimonio musical de Puerto Rico.
+              El Instituto de Cultura Puertorriqueña, fiel a su misión de salvaguardar y promover el quehacer cultural de nuestra Isla, se enorgullece en presentar el Museo de la Música Puertorriqueña: un espacio curatorial concebido para rendir homenaje a los géneros, compositores e intérpretes que constituyen los pilares de nuestro patrimonio musical.
             </p>
             
             <p>
-              A pesar de nuestra condición colonial en el ámbito político, Puerto Rico ha sido, en el plano musical, un imperio mundial. El presente museo se ha concebido como una muestra representativa de dicha grandeza. La amplitud, profundidad y trascendencia de nuestros géneros musicales exigen espacios museísticos de gran escala—quizás edificios enteros—para albergar con justicia la totalidad de nuestro legado artístico. A sabiendas de las limitaciones del espacio, hemos optado por una curaduría que privilegia el valor histórico de las principales expresiones musicales seleccionadas.
+              A pesar de su condición colonial en el plano político, Puerto Rico ha sido —y continúa siendo— una potencia en el escenario musical internacional. Este museo nace para reconocer y celebrar esa grandeza.
             </p>
             
             <p>
-              Sabemos que las cincuenta exposiciones permanentes aquí reunidas bastarán para avivar el orgullo nacional que nos despierta la música puertorriqueña—expresión viva de nuestra raíz, nuestra historia y nuestra alma como puertorriqueños.
+              La exhibición permanente está compuesta por 53 exposiciones, diseñadas con un enfoque vanguardista y visualmente contrastante, nunca antes visto en una institución museística de la Isla. Cada sala forma parte de un mosaico que recorre la diversidad, profundidad y trascendencia de nuestras expresiones musicales, desde el periodo colonial hasta la década de 1990.
+            </p>
+
+            <p>
+              Consciente de que la magnitud de nuestro legado merecería espacios museográficos de mayor escala, esta propuesta curatorial ha priorizado el valor histórico de las manifestaciones seleccionadas. La experiencia se enriquece con cientos de muestras auditivas, imágenes de avanzada estética y más de un centenar de piezas expositivas, entre instrumentos musicales, partituras y objetos de alto valor patrimonial.
+            </p>
+
+            <p>
+              Reconociendo que resulta imposible abarcar la totalidad de nuestra expresión musical, el término mosaico se adopta como símbolo de síntesis: una invitación a contemplar, valorar y reencontrarnos con nuestra identidad cultural. Esta es una afirmación de orgullo nacional y de reconocimiento de nuestra música como reflejo vivo de la raíz, la historia y el alma del pueblo puertorriqueño.
             </p>
 
             <div className="mt-8 text-right">
               <p className="text-brandPurple-700 font-semibold">Dr. José Antonio López</p>
               <p className="text-gray-600">Curador</p>
-              <p className="text-gray-600">20 de junio de 2025</p>
+              <p className="text-gray-600">25 de junio de 2025</p>
             </div>
           </div>
 

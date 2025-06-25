@@ -123,8 +123,21 @@ export default function MusicaConcierto() {
             La música de concierto en Puerto Rico ha sido influenciada por &quot;las grandes tradiciones europeas&quot; y &quot;los ritmos autóctonos de la isla&quot;, creando &quot;un sonido único&quot; que &quot;refleja nuestra identidad cultural&quot;.
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            El Conservatorio de Música de Puerto Rico es &quot;la cuna&quot; de &quot;grandes talentos musicales&quot;.
+            El Conservatorio de Música de Puerto Rico es "la cuna" de "grandes talentos musicales".
           </p>
+
+          {/* Imágenes para añadir en Música de Concierto */}
+          <div className="mb-16 bg-gradient-to-r from-concierto-50 to-concierto-100 p-8 rounded-lg">
+            <div className="text-center mb-8">
+              <h2 className="ogg-medium text-3xl text-concierto-900 mb-4">Imágenes para añadir en Música de Concierto</h2>
+              <div className="w-32 h-1 bg-concierto-600 mx-auto"></div>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+              <a href="https://app.box.com/s/vhmt9yfb5d97t6x3jjn24b9eyas89rms" target="_blank" rel="noopener noreferrer" className="text-concierto-700 underline text-lg">
+                Ver imágenes de la sala Música de Concierto
+              </a>
+            </div>
+          </div>
         </main>
 
         <Footer />

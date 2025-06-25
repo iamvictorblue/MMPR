@@ -77,6 +77,32 @@ export default function Danza() {
             </div>
           </div>
 
+          {/* La Borinqueña Section */}
+          <div className="mb-16 bg-gradient-to-r from-danza-50 to-danza-100 p-8 rounded-lg">
+            <div className="text-center mb-8">
+              <h2 className="ogg-medium text-3xl text-danza-900 mb-4">DANZA</h2>
+              <div className="w-32 h-1 bg-danza-600 mx-auto"></div>
+            </div>
+            
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="ogg-medium text-2xl text-danza-900 mb-6 text-center">Añadir info de LA BORINQUEÑA:</h3>
+              
+              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                <p>
+                  El hecho de que el himno nacional de Puerto Rico sea una danza dice mucho, ya que se aparta de la tradición universal en la cual los himnos suelen ser marchas marciales. Es un himno de características singulares: la belleza de su tonalidad menor, unida a su aire romántico y rítmico, tan característicos de la danza puertorriqueña, lo dotan de una esencia única.
+                </p>
+                
+                <p>
+                  Estos elementos envuelven a <strong>La Borinqueña</strong> en un lirismo que la distingue, convirtiéndola en un himno excepcional y sin paralelo en el mundo.
+                </p>
+                
+                <p>
+                  El misterio que envuelve la autoría de nuestro himno nacional continúa sin resolverse. Diversas versiones atribuyen su creación, tanto en la letra como en la música, a figuras como <strong>Francisco Ramírez de Arellano</strong> y <strong>Félix Astol Artés</strong>, dejando una incertidumbre en torno a sus orígenes.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Amaury Veray Quote */}
           <div className="mb-16 bg-danza-800 text-white p-12">
             <div className="text-center mb-8">
@@ -127,11 +153,24 @@ export default function Danza() {
           </div>
 
           <p className="text-lg text-gray-700 mb-6">
-            La danza puertorriqueña es &quot;la expresión más refinada de nuestra música&quot; y representa un momento crucial en la historia cultural de Puerto Rico.
+            La danza puertorriqueña es "la expresión más refinada de nuestra música" y representa un momento crucial en la historia cultural de Puerto Rico.
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            La danza es &quot;el género que elevó la música puertorriqueña&quot; a nuevas alturas de sofisticación y expresión artística.
+            La danza es "el género que elevó la música puertorriqueña" a nuevas alturas de sofisticación y expresión artística.
           </p>
+
+          {/* Imágenes para añadir en DANZA */}
+          <div className="mb-16 bg-gradient-to-r from-danza-50 to-danza-100 p-8 rounded-lg">
+            <div className="text-center mb-8">
+              <h2 className="ogg-medium text-3xl text-danza-900 mb-4">Imágenes para añadir en DANZA</h2>
+              <div className="w-32 h-1 bg-danza-600 mx-auto"></div>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+              <a href="https://app.box.com/s/ez8cwvu5h2o5vr2h9lyirwvho6hkobgc" target="_blank" rel="noopener noreferrer" className="text-danza-700 underline text-lg">
+                Ver imágenes de la sala Danza
+              </a>
+            </div>
+          </div>
         </main>
 
         <Footer />

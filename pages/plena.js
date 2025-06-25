@@ -89,6 +89,46 @@ export default function Plena() {
             </div>
           </div>
 
+          {/* Pleneros Históricos Section */}
+          <div className="mb-16 bg-gradient-to-r from-plena-50 to-plena-100 p-8 rounded-lg">
+            <div className="text-center mb-8">
+              <h2 className="ogg-medium text-3xl text-plena-900 mb-4">PLENEROS HISTÓRICOS</h2>
+              <div className="w-32 h-1 bg-plena-600 mx-auto"></div>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg space-y-8">
+              {/* Letra P */}
+              <div>
+                <h3 className="ogg-medium text-2xl text-plena-900 mb-2">Letra P</h3>
+                <p className="text-lg text-gray-700 mb-2 font-semibold">Manuel Jiménez "Canario”<br/>Pionero de la Plena</p>
+                <p className="text-lg text-gray-700">El nombre de Manuel Jiménez, conocido como "Canario", está profundamente ligado al origen y desarrollo de la Plena en Puerto Rico. En 1929, realizó grabaciones históricas de este género musical, logrando que estas se difundieran rápidamente por toda la isla y consolidando a la Plena como una de las expresiones culturales más emblemáticas de nuestra identidad. Entre estas piezas destaca Cortaron a Elena, una plena compuesta por el ponceño Joselino "Bumbum" Oppenheimer, considerado el primer virtuoso del género. La canción está dedicada a Elena Sánchez, una bailadora que sufrió un ataque en la Avenida Hostos de Ponce.</p>
+              </div>
+              {/* Letra L */}
+              <div>
+                <h3 className="ogg-medium text-2xl text-plena-900 mb-2">Letra L</h3>
+                <p className="text-lg text-gray-700 mb-2 font-semibold">Gumersindo "Sindo" Mangual<br/>Un plenero del Mar</p>
+                <p className="text-lg text-gray-700">Gumersindo "Sindo" Mangual, oriundo de Ponce, se estableció en Fajardo como trabajador en la industria azucarera. Allí fundó y lideró el grupo Los Pleneros del Este, convirtiéndose en un referente dentro del género de la Plena. Entre sus composiciones más destacadas se encuentra la célebre plena Tintorera del Mar. Sindo Mangual es reconocido como uno de los grandes pleneros de Puerto Rico.</p>
+              </div>
+              {/* Letra E */}
+              <div>
+                <h3 className="ogg-medium text-2xl text-plena-900 mb-2">Letra E</h3>
+                <p className="text-lg text-gray-700 mb-2 font-semibold">Efraín "Mon" Rivera<br/>El Rey del Trabalenguas</p>
+                <p className="text-lg text-gray-700">Efraín "Mon" Rivera, conocido como "El rey del trabalenguas", nació el 25 de mayo de 1925 en Mayagüez, Puerto Rico. Su estilo único de interpretar la plena fue una herencia directa de su padre, Ramón Rivera Alers, apodado "El viejo Mon". Este último recorría las calles de Mayagüez con su pandero, improvisando y componiendo plenas que capturaban con maestría la vida cotidiana de su comunidad. La versatilidad de Mon Rivera como multiinstrumentista le permitió alcanzar el éxito cuando se trasladó a Nueva York a mediados de la década de 1950. En esa ciudad, consolidó una destacada carrera musical, dejando un legado de composiciones memorables que enriquecieron el repertorio de la plena. Entre sus obras más icónicas se encuentran: Karakatis-ki, Aló, ¿quién llama? y Qué gente averiguá.</p>
+              </div>
+              {/* Letra N */}
+              <div>
+                <h3 className="ogg-medium text-2xl text-plena-900 mb-2">Letra N</h3>
+                <p className="text-lg text-gray-700 mb-2 font-semibold">Marcial Reyes<br/>"El Sastre" de la Plena</p>
+                <p className="text-lg text-gray-700">Fue conocido como "El Sastre" por su inigualable habilidad como fabricante de panderos. Sus instrumentos, considerados auténticas joyas, son altamente valorados como piezas de colección por quienes tienen el privilegio de poseerlos. Reyes fue el fundador de dos agrupaciones fundamentales para la historia de este género musical: Marcial Reyes y sus Pleneros y, más tarde, Los Pleneros de la 21, establecidos en la ciudad de Nueva York. Además de su maestría como artesano, se destacó como compositor, cantante y bailarín, demostrando ser un artista completo y un pilar de la plena. De acuerdo con el testimonio de Ramón Pedraza, "fue Marcial Reyes quien enseñó a Rafael Cortijo a tocar la plena".</p>
+              </div>
+              {/* Letra A */}
+              <div>
+                <h3 className="ogg-medium text-2xl text-plena-900 mb-2">Letra A</h3>
+                <p className="text-lg text-gray-700 mb-2 font-semibold">Tito Matos<br/>"El Requinto de la Plena, pupilo de Félix Díaz"</p>
+                <p className="text-lg text-gray-700">Tito matos no era solo músico, fue uno de los gestores culturales y comunitarios más activos de Puerto Rico. Dividía su tiempo entre presentaciones musicales, eventos culturales, iniciativas para la comunidad y familia. Nació en Santurce e hizo suyo el pandero, instrumento que no dejó de tocar y fomentar entre las nuevas generaciones. Perteneció a múltiples agrupaciones, comenzando por Los Sapos del Caño, Pleneros del Almendro, Grupo Agüeybaná, Pleneros del Pueblo, Pleneros del Coquí, Pleneros de la 23, Pleneros de la 21  y Viento de Agua. Falleció el 18 de enero de 2022".<br/><br/><span className="italic">El Nuevo Día, 11 de junio de 2023</span></p>
+              </div>
+            </div>
+          </div>
+
           {/* Legacy Section */}
           <div className="bg-plena-900 text-white p-12">
             <div className="text-center mb-8">
@@ -254,6 +294,19 @@ export default function Plena() {
                 <h3 className="font-semibold text-brandPurple-900 mb-2 text-xl">Bailable</h3>
                 <p className="text-gray-600">Ritmo que invita al baile y la celebración</p>
               </div>
+            </div>
+          </div>
+
+          {/* Imágenes para añadir en PLENA */}
+          <div className="mb-16 bg-gradient-to-r from-plena-50 to-plena-100 p-8 rounded-lg">
+            <div className="text-center mb-8">
+              <h2 className="ogg-medium text-3xl text-plena-900 mb-4">Imágenes para añadir en PLENA</h2>
+              <div className="w-32 h-1 bg-plena-600 mx-auto"></div>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+              <a href="https://app.box.com/s/56jhkven10kr46l55mmcujb5xw8oxxdq" target="_blank" rel="noopener noreferrer" className="text-plena-700 underline text-lg">
+                Ver imágenes de la sala Plena
+              </a>
             </div>
           </div>
         </main>

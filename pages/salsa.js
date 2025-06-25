@@ -90,6 +90,32 @@ export default function Salsa() {
             </div>
           </div>
 
+          {/* Tite Curet Alonso Section */}
+          <div className="mb-16 bg-gradient-to-r from-salsa-50 to-salsa-100 p-8 rounded-lg">
+            <div className="text-center mb-8">
+              <h2 className="ogg-medium text-3xl text-salsa-900 mb-4">LA SALSA</h2>
+              <div className="w-32 h-1 bg-salsa-600 mx-auto"></div>
+            </div>
+            
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="ogg-medium text-2xl text-salsa-900 mb-6 text-center">Un espacio para la info de Tite Curet:</h3>
+              
+              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                <p>
+                  <strong>Catalino Curet Alonso</strong>, conocido universalmente como <strong>Tite Curet Alonso</strong>, es el más grande compositor de la salsa puertorriqueña. Nació el 12 de febrero de 1926 en Guayama, Puerto Rico. Su pluma está detrás de más de 2,000 canciones, muchas de ellas convertidas en himnos del repertorio salsero puertorriqueño.
+                </p>
+                
+                <p>
+                  Su obra supo capturar las realidades del pueblo puertorriqueño, la dignidad de los marginados, el amor en sus múltiples formas y el orgullo de la identidad boricua. Fue autor de clásicos como <em>"Periódico de ayer"</em>, <em>"Anacaona"</em>, <em>"Las caras lindas"</em>, <em>"Plantación adentro"</em> y <em>"Juan Albañil"</em>, interpretados por artistas como Héctor Lavoe, Ismael Rivera y Cheo Feliciano, entre muchos otros.
+                </p>
+                
+                <p>
+                  Tite Curet es el cronista del alma puertorriqueña, transformando la salsa en una forma de descripción social y poesía urbana. Falleció el 5 de agosto de 2003.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Historical Moments */}
           <div className="mb-16 bg-gray-50 p-8 rounded-lg">
             <h2 className="ogg-medium text-3xl text-salsa-900 mb-8 text-center">Momentos Históricos</h2>
@@ -209,6 +235,19 @@ export default function Salsa() {
             </div>
           </div>
         </main>
+
+        {/* Imágenes para añadir en SALSA */}
+        <div className="mb-16 bg-gradient-to-r from-salsa-50 to-salsa-100 p-8 rounded-lg mx-4">
+          <div className="text-center mb-8">
+            <h2 className="ogg-medium text-3xl text-salsa-900 mb-4">Imágenes para añadir en SALSA</h2>
+            <div className="w-32 h-1 bg-salsa-600 mx-auto"></div>
+          </div>
+          <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+            <a href="https://app.box.com/s/59dif2cgq0paqxixudmola4duwmuxlag" target="_blank" rel="noopener noreferrer" className="text-salsa-700 underline text-lg">
+              Ver imágenes de la sala Salsa
+            </a>
+          </div>
+        </div>
 
         <Footer />
       </div>

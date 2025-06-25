@@ -128,6 +128,49 @@ export default function Bomba() {
               </div>
             </div>
           </AnimatedContainer>
+
+          {/* Rafael Cepeda Atiles Section */}
+          <AnimatedContainer delay={0.8}>
+            <div className="mb-16 bg-gradient-to-r from-bomba-50 to-bomba-100 p-8 rounded-lg">
+              <div className="text-center mb-8">
+                <h2 className="ogg-medium text-3xl text-bomba-900 mb-4">BOMBA</h2>
+                <div className="w-32 h-1 bg-bomba-600 mx-auto"></div>
+              </div>
+              
+              <div className="bg-white p-8 rounded-lg shadow-lg">
+                <h3 className="ogg-medium text-2xl text-bomba-900 mb-6 text-center">RAFAEL CEPEDA ATILES<br/>EL PATRIARCA DE LA BOMBA</h3>
+                
+                <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+                  <p>
+                    Don Rafael Cepeda fue un brillante y prolífico compositor, músico, director y folclorista auténtico, reconocido como una de las figuras más destacadas de la cultura puertorriqueña. Su legado como patriarca indiscutible de la música y el baile de la Bomba y la Plena trascendió las fronteras de Puerto Rico, dejando una huella imborrable en la historia cultural de la isla.
+                  </p>
+                  
+                  <p>
+                    Cepeda dedicó su vida a cultivar, defender y exponer la expresión cultural de la Bomba, asegurando su preservación y transmisión a nuevas generaciones. Gracias a su contribución, el Smithsonian Institute lo condecoró como "el mejor folclorista del mundo," un reconocimiento que subraya el impacto global de la música tradicional puertorriqueña.
+                  </p>
+                  
+                  <p>
+                    Sus composiciones han sido interpretadas por agrupaciones tanto locales como internacionales. Entre sus plenas más destacadas se incluyen <em>El Bombón de Elena</em> y <em>A la Verdegué</em>, las cuales continúan resonando en la tradición musical puertorriqueña.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </AnimatedContainer>
+
+          {/* Imágenes para añadir en BOMBA */}
+          <AnimatedContainer delay={1.0}>
+            <div className="mb-16 bg-gradient-to-r from-bomba-50 to-bomba-100 p-8 rounded-lg">
+              <div className="text-center mb-8">
+                <h2 className="ogg-medium text-3xl text-bomba-900 mb-4">Imágenes para añadir en BOMBA</h2>
+                <div className="w-32 h-1 bg-bomba-600 mx-auto"></div>
+              </div>
+              <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+                <a href="https://app.box.com/s/etxknlwjb3ittjyuzasb62bscx9dbddn" target="_blank" rel="noopener noreferrer" className="text-bomba-700 underline text-lg">
+                  Ver imágenes de la sala Bomba
+                </a>
+              </div>
+            </div>
+          </AnimatedContainer>
         </main>
 
         <Footer />

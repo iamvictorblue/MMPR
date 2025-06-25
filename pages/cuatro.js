@@ -182,6 +182,43 @@ export default function Cuatro() {
               </div>
             </div>
           </div>
+
+          {/* Ladislao Martínez y Paquito López Cruz Section */}
+          <div className="mb-16 bg-gradient-to-r from-cuatro-50 to-cuatro-100 p-8 rounded-lg">
+            <div className="text-center mb-8">
+              <h2 className="ogg-medium text-3xl text-cuatro-900 mb-4">CUATRO</h2>
+              <div className="w-32 h-1 bg-cuatro-600 mx-auto"></div>
+            </div>
+            
+            <div className="bg-white p-8 rounded-lg shadow-lg space-y-8">
+              <div>
+                <h3 className="ogg-medium text-2xl text-cuatro-900 mb-4">Ladislao Martínez</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  "El Maestro Ladí" fue el responsable del Cuatro Moderno, el cual utiliza cinco cuerdas dobles.
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="ogg-medium text-2xl text-cuatro-900 mb-4">Paquito López Cruz</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Como folclorista, Paquito López Cruz contribuyó de manera significativa a difundir el conocimiento sobre el instrumento del cuatro. Una de sus principales contribuciones como educador fue la creación del primer "Método para la enseñanza del cuatro puertorriqueño", el cual fue publicado en 1967 por el Instituto de Cultura Puertorriqueña (ICP). Este método se convirtió en una referencia fundamental para aquellos que deseaban aprender a tocar el cuatro y contribuyó a la preservación y promoción de la tradición musical puertorriqueña.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Imágenes para añadir en CUATRO */}
+          <div className="mb-16 bg-gradient-to-r from-cuatro-50 to-cuatro-100 p-8 rounded-lg">
+            <div className="text-center mb-8">
+              <h2 className="ogg-medium text-3xl text-cuatro-900 mb-4">Imágenes para añadir en CUATRO</h2>
+              <div className="w-32 h-1 bg-cuatro-600 mx-auto"></div>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+              <a href="https://app.box.com/s/dvmkf3m39uzlti784xst6iin4t81hkp4" target="_blank" rel="noopener noreferrer" className="text-cuatro-700 underline text-lg">
+                Ver imágenes de la sala Cuatro
+              </a>
+            </div>
+          </div>
         </main>
 
         <Footer />
